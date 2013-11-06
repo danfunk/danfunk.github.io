@@ -1,0 +1,98 @@
+/* ----------------------------------------------------------------
+    Colors
+-----------------------------------------------------------------*/
+
+
+a,
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+.slider-caption span,
+.description span,
+nav#primary-menu li a:hover,
+#side-social li a:hover,
+#side-menu.dark nav#primary-menu li a:hover,
+#side-menu.dark #side-social li a:hover,
+#portfolio-filter li a:hover,
+#portfolio-filter li.activeFilter a,
+#portfolio-navigation a:hover,
+.product-feature3:hover span,
+.hi-icon-effect-3b.hi-icon,
+.hi-icon-effect-4.hi-icon,
+.hi-icon-effect-5.hi-icon,
+.hi-icon-effect-6.hi-icon,
+.hi-icon-effect-7.hi-icon,
+.hi-icon-effect-9.hi-icon,
+.counter,
+.contact-info,
+#gotoTop:hover,
+.best-price .pricing-price,
+#footer-social li a:hover { color: #36bba4; }
+
+
+.button:hover,
+.button.inverse { color: #36bba4 !important; }
+
+
+.button.inverse:hover {
+    border-color: #444 !important;
+    color: #444 !important;
+}
+
+
+/* ----------------------------------------------------------------
+    Background Colors
+-----------------------------------------------------------------*/
+
+
+.product-feature img,
+.product-feature > span,
+ul.tab-nav.tab-nav2 li.ui-state-active a,
+.team-image span,
+.simple-button.inverse,
+.simple-button:hover,
+.best-price .pricing-title,
+.i-rounded:hover,
+.i-circled:hover { background-color: #36bba4; }
+
+
+/* ----------------------------------------------------------------
+    Border Colors
+-----------------------------------------------------------------*/
+
+
+#portfolio-navigation a:hover,
+#footer-social li a:hover,
+.hi-icon-effect-4.hi-icon:after,
+#gotoTop:hover { border-color: #36bba4; }
+
+.button:hover,
+.button.inverse { border-color: #36bba4 !important; }
+
+
+span.page-divider span,
+span.divider2 span { border-bottom-color: #36bba4; }
+
+
+.hi-icon-effect-2.hi-icon,
+.hi-icon-effect-3.hi-icon,
+.hi-icon-effect-3a.hi-icon,
+.hi-icon-effect-4.hi-icon,
+.hi-icon-effect-5.hi-icon,
+.hi-icon-effect-6.hi-icon,
+.hi-icon-effect-7.hi-icon,
+.hi-icon-effect-7a.hi-icon:after,
+.hi-icon-effect-9.hi-icon:after { box-shadow: 0 0 0 3px #36bba4; }
+
+
+/* ----------------------------------------------------------------
+    Selection Colors
+-----------------------------------------------------------------*/
+
+
+::selection,
+::-moz-selection,
+::-webkit-selection { background: #36bba4; }

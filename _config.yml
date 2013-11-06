@@ -1,0 +1,4 @@
+name: Sartography
+markdown: redcarpet
+pygments: true
+paginate: 5

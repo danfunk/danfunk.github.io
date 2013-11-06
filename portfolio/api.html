@@ -1,0 +1,39 @@
+---
+layout: portfolio
+title:  "Interfaces"
+date:   2013-11-02 10:00:00
+categories: diagrams
+diagram: api.png
+prev: 2
+next: 4
+---
+
+<div class="port-desc clearfix">  
+  <h3>Project Description</h3>
+  The most critical areas of documentation are the junctions where disparate
+  systems meet.  Diagrams can help tremendously in conveying many of the
+  underlying assumptions that exist within a body of work. Not only is it 
+  critical to get these APIs right, it is also critical to communicate 
+  WHY they are right. </div>
+
+
+<div class="accordion clearfix">
+  
+  <div class="acctitle">What we Did?</div>
+  <div class="acc_content clearfix"> 
+  We developed a central API that would be used by a wide variety of development teams throughout the
+  a mid-sized government organization.  The principle of HATEOAS (Hypertext as the Engine of Application State)
+  is a cornerstone concept in REST based APIs, but it isn't an immediately intuitive.  We developed
+  this diagram to help show that by requesting information about one thing, you would be provided with Links
+  that could be followed to access other items.
+  </div>
+  <div class="acctitle">Who benefited?</div>  
+  <div class="acc_content clearfix"> 
+    The HATEOAS principal does an amazing job of moving business logic out of the client (user interface) code
+    keeping it the server side application.  This makes for a very robust application that can more easily
+    grow and adapt, thus reducing dependencies between components.
+    This diagram helps teams understand and take advantage of this critical principle.  While the API allows
+    for the use of these links between components, it is possible to ignore them, and hard-wire connections
+    from the User interface to the API.  
+  </div>
+</div>

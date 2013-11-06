@@ -1,0 +1,32 @@
+<div class="container"> 
+
+  <div id="portfolio-ajax-single">
+        
+    <h2>{{page.title}}</h2>    
+    <div id="portfolio-navigation">
+      {% if page.prev %}
+      <a href="#" id="prev-portfolio" data-id="{{page.prev}}"><i class="icon-arrow-left-3"></i></a>
+      {% endif %}      
+      
+      {% if page.next %}
+      <a href="#" id="next-portfolio" data-id="{{page.next}}"><i class="icon-arrow-right-4"></i></a>	  
+      {% endif %}            
+      
+      <a href="#" id="close-portfolio"><i class="icon-close-2"></i></a>
+    </div>
+    
+    
+    <div id="portfolio-single-wrap">            
+      
+      <div id="slider">
+        <a href="images/portfolio/{{ page.diagram }}" data-lightbox="image"><img src="images/portfolio/{{ page.diagram }}" alt="{{ page.title }}" /></a>
+      </div>
+      
+      <div id="portfolio-details-wrap">
+	{{ page.content }}
+	<div class="clear"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+ </div>
+ </div>

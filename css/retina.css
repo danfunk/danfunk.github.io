@@ -1,0 +1,55 @@
+/* ----------------------------------------------------------------
+    Retina Specific CSS
+-----------------------------------------------------------------*/
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+
+    #logo a.standard-logo { display: none !important; }
+
+    #logo a.retina-logo { display: inline-block; }
+
+
+    .flex-prev,
+    .flex-next {
+        background-image: url("../images/icons/flex-arrow@2x.png");
+        background-size: 64px 56px;
+        -moz-background-size: 64px 56px;
+        -webkit-background-size: 64px 56px;
+        -o-background-size: 64px 56px;
+    }
+
+    .preloader,
+    .preloader2,
+    .light .preloader2 {
+        background-image: url("../images/preloader@2x.gif");
+        background-size: 32px 32px;
+        -moz-background-size: 32px 32px;
+        -webkit-background-size: 32px 32px;
+        -o-background-size: 32px 32px;
+    }
+
+    .light .preloader2 { background-image: url("images/preloader-dark@2x.gif"); }
+
+    .toggle .togglet,
+    .toggle .toggleta,
+    .acctitle,
+    .acctitlec {
+        background-image: url("../images/icons/toggle-plus@2x.png");
+        background-size: 16px 16px;
+        -moz-background-size: 16px 16px;
+        -webkit-background-size: 16px 16px;
+        -o-background-size: 16px 16px;
+    }
+
+    .toggle .toggleta,
+    .acctitlec { background-image: url("../images/icons/toggle-minus@2x.png"); }
+
+}
